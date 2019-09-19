@@ -21,7 +21,6 @@ console.log(animals);
 
 var fruits2 = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
 var fruitSplit = fruits2.split("/");
-document.write(fruitSplit)
 document.write(fruitSplit.join("<br>"))
 /*document.write(fruitSplit.join(" "));
 console.log(fruitSplit);*/
