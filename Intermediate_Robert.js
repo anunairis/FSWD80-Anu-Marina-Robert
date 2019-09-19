@@ -4,7 +4,7 @@ console.log(cars.sort());
 
 var fruits = ['apple', 'banana', 'kiwi']; 
 
-console.log(fruits);
+console.table(fruits);
 
 fruits.push( "orange" );
 console.log(fruits);
@@ -21,6 +21,6 @@ console.log(animals);
 
 var fruits2 = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
 var fruitSplit = fruits2.split("/");
-document.write(fruitSplit.join("<br>"))
+document.write(fruit.join("<br>"))
 /*document.write(fruitSplit.join(" "));
 console.log(fruitSplit);*/

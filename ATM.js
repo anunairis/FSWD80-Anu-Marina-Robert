@@ -1,10 +1,10 @@
 
 var initialX = prompt("Type a number");
 
-var A = 1;
-var B = 20;
-var C = 20;
-var D = 30;
+var A = 1;   	//100€ bills available
+var B = 20;		//50€ bills
+var C = 20;		//20€ bills
+var D = 30;		//10€ bills
 var sum = A*100 + B*50 + C*20 + D*10;
 
 console.log(sum)
@@ -38,7 +38,7 @@ if (C > 0) {
 			} 			
 }
 
-X = X - c*20
+X = X - c*20;
 
 if (D > 0) {
 	var d = Math.floor(X/10);
@@ -47,7 +47,7 @@ if (D > 0) {
 			} 			
 }
 
-finalX = X - d*10
+finalX = X - d*10;
 
 if (finalX == 0) {
 	document.write(initialX + "€ as: " + a + "x100€| " + b +" x50€| " + c +" x20€| " + d +" x10€" )
