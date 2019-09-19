@@ -1,0 +1,1 @@
+var marina="Hi my name is Marina";
